@@ -33,14 +33,14 @@ int32_t main()
 //Here the second apparoch where you have told to find the elements of pascal triangle at given row
 	// here you will use optimal approach to print the row
 
-	int r;
+	long long int r;
 	cin >> r;
 
-	int p = 1;
+	long long int p = 1;
 	cout << p << " ";
-	int q = 1;
+	long long int q = 1;
 
-	for (int i = 1; i < r; i++)
+	for (long long int i = 1; i < r; i++)
 	{
 
 		p = p * (r - i); q *= i;
